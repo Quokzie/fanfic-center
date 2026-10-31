@@ -12,7 +12,11 @@ html{
     scrollbar-width: none;
 }    
 body{
-    background-color: #165ea5;
+    background:
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 30%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 30%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 30%), transparent 70.71%)
+      rgb(127, 127, 119);
     width: 100%;
     padding: 0;
     display: flex;
@@ -21,18 +25,54 @@ body{
     
 }
 nav{
-    background-color: #16a559;
-    width: 100%;
+    background-color: #3d244689;
+    width: 90%;
     padding: 0;
-    margin: 0;
+    margin: 1% auto;
+    border-radius: 2rem;
+    
 }
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+nav ul li{
+    list-style: none;
+    color: rgb(216, 202, 227);
+    font-weight: 600;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(191, 179, 201);
+}
+
 .menu{
     --bs-menu-max-height: 200px;
     --bs-menu-overflow-y: auto;
 }
 
 footer{
-    background-color: #f8f9fa;
-    width: 100%;
-    margin:20px 0 0 0;
+    background-color:  #3d244690;
+    width: 98%;
+    margin:0 auto;
+    border-radius: 0.8rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer p{
+    color: rgb(173, 161, 182);
+    font-weight: 400;
+    width:80%;
+    margin:5px auto;
 }
