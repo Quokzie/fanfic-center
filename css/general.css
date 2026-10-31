@@ -58,6 +58,31 @@ nav ul li a{
     --bs-menu-overflow-y: auto;
 }
 
+.categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.category {
+    background-color: #3d24469f;
+    padding: 10px 20px;
+    width:300px;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.category h2{
+    color: rgb(157, 133, 175);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-wrap: wrap;
+}
+
 footer{
     background-color:  #3d244690;
     width: 98%;
