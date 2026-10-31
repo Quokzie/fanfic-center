@@ -13,16 +13,16 @@ html{
 }    
 body{
     background:
-    radial-gradient(circle at 50% 0, rgb(255 0 0 / 30%), transparent 70.71%),
-    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 30%), transparent 70.71%),
-    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 30%), transparent 70.71%)
-      rgb(127, 127, 119);
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 20%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 20%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 20%), transparent 70.71%)
+      rgb(154, 154, 145);
     width: 100%;
     padding: 0;
     display: flex;
     flex-direction: column;
     margin: 0;
-    
+    background-repeat: repeat-y;
 }
 nav{
     background-color: #3d244689;
@@ -58,6 +58,23 @@ nav ul li a{
     --bs-menu-overflow-y: auto;
 }
 
+.header{
+    background-color: #3d244689;
+    width: 90%;
+    padding: 10px 20px;
+    margin: 1% auto;
+    border-radius: 2rem;
+    text-align: center;
+    color: rgb(219, 194, 238);
+}
+
+.header #whisper{
+    color: rgb(142, 127, 153);
+    font-weight: 400;
+    font-size: 1rem;
+    text-wrap: wrap;
+}
+
 .categories{
     display: flex;
     flex-direction: row;
@@ -77,16 +94,16 @@ nav ul li a{
 }
 
 .category h2{
-    color: rgb(157, 133, 175);
+    color: rgb(179, 160, 194);
     font-weight: 400;
     font-size: 1.5rem;
     text-wrap: wrap;
 }
 
 footer{
-    background-color:  #3d244690;
+    background-color:  #3d2446be;
     width: 98%;
-    margin:0 auto;
+    margin:10px auto;
     border-radius: 0.8rem;
     text-align: center;
     justify-content: center;
